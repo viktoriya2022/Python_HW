@@ -6,7 +6,7 @@ x = input('Введите первое число: ')
 y = input('Введите второе число: ')
 z = input('Введите третье число: ')
 
-if not(x or y or z) == (not(x) and not(y) and not(z)):
+if not(x or y or z) == (not x and not y and not z):
     print('Утверждение истинно.')
 else:
     print('Утверждение ложно.')
