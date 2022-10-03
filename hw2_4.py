@@ -16,6 +16,11 @@ for i in range(0, pos):
 print(positions)
 
 res = 1
-for i in range(0, pos):
-        res *= list[positions[i]]
+
+for i in positions:
+    res *= list[i]
+# --------------------
+# for i in range(0, pos):
+#     res *= list[positions[i]]
+# --------------------
 print(f"Произведение элементов на указанных позициях: {res}")

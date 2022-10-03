@@ -12,10 +12,12 @@ def mix_list(list):
         # Получение случайного индекса
         index = random.randint(0, len(list) - 1)
         # Замена
-        temp = list[i]
-        list[i] = list[index]
-        list[index] = temp
-    # Возвращаем список
+        list[i], list[index] = list[index], list[i]
+        # --------
+        # temp = list[i]
+        # list[i] = list[index]
+        # list[index] = temp
+        # --------
     return list
 mixed_list = mix_list(list)
 print("Исходный список: ")
