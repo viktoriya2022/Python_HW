@@ -71,11 +71,11 @@
 # Пример: для n = 6: [4, 7, 10, 13, 16, 19]
 # ---------------------------------------
 
-n = int(input("Введите натуральное число N: "))
-result = []
-for i in range(1, n + 1):
-    result.append(3*i + 1)
-print(*result, sep=', ')
+# n = int(input("Введите натуральное число N: "))
+# result = []
+# for i in range(1, n + 1):
+#     result.append(3*i + 1)
+# print(*result, sep=', ')
 # print(*result, sep=', ') # "*" дает распаковка списка, sep= разделитель
 # print('итого получено'.capitalize()) # первая прописная
 # print('итого получено'.upper())      # все заглавные
