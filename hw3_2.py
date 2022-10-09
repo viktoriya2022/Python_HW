@@ -13,8 +13,9 @@ print(f'Исходный список: {numbers}')
 
 list = []
 i = 0
-while i < (n-1) / 2:
+while i < n / 2:
     num = numbers[i] * numbers[n-1-i]
     list.append(num)
     i += 1 
 print(f'Список произведений: {list}')    
+
